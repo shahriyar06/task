@@ -6,21 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Travel Blog</title>
     <link rel="shortcut icon" href="image/travel_icon.png" type="image/x-icon">
+    <style>
+        i{
+            color: rgb(233, 202, 21);
+        }
+        #head{
+            text-align: center;
+        }
+        button{
+            background-color: skyblue;
+            border: 2px solid blue;
+        }
+        .size{
+            margin-left: 40px;
+        }
+        .fon{
+            color: darkseagreen;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+    </style>
 </head>
 <body>
-    <h1><i>My Travel Blog.</i></h1>
+    <h1 id="head"><i>My Travel Blog.</i></h1>
     <div>
-        <!--My Experience. -->
-        <p>I travel Cox's Bazar last month. I had good experience. I was visit so many place.For Example : Sugondha beach, Kolatoli beach, Inani beach, patuya etc. I ate the famous food here.<button>Read more...</button></p>
+        <!--My Travel Experience. -->
+        <p style="color: tomato;">I travel Cox's Bazar last month. I had good experience. I was visit so many place.For Example : Sugondha beach, Kolatoli beach, Inani beach, patuya etc. I ate the famous food here. <button>Read more...</button></p>
     </div>
-    <span><b>What I bought?</b></span>
+    <h2><b class="fon">What I <span style="color: red;">bought</span>?</b></h2>
     <!-- Buy list. -->
-    <h3>When I visit, that time I bought some things.</h3>
-    <ol>
-        <li>Achar</li>
-        <li>Chocolate</li>
-        <li>Curi</li>
-    </ol>
+    <h3 class="fon">=> When I visit, that time I bought some things.</h3>
+    <div class="size fon">
+        <ol>
+            <li>Achar</li>
+            <li>Chocolate</li>
+            <li>Curi</li>
+        </ol>
+    </div>
     <!-- Favorite food list. -->
     <span><b>MY Favorite food.</b></span>
     <ul>
